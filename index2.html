@@ -1,45 +1,47 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
-Cards
-Self-contained pieces of paper with data.
+<html>
+  <head>
+      <meta name="viewport" content="width = device-width, initial-scale = 1">
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+      <link rel="manifest" href="/site.webmanifest">
+      </div>
+    </form>
+    <link rel="stylesheet" href="styles.css">
+    <title>Diabetis</title>
+  </head>
 
-Welcome
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis pellentesque lacus eleifend lacinia...
-Get Started
-share	
-Wide	
-<!-- Wide card with share menu button -->
-<style>
-
-  
-  .demo-card-wide.mdl-card {
-  width: 512px;
-}
-.demo-card-wide > .mdl-card__title {
-  color: #fff;
-  height: 176px;
-  background: url('../assets/demos/welcome_card.jpg') center / cover;
-}
-.demo-card-wide > .mdl-card__menu {
-  color: #fff;
-}
-</style>
-
-<div class="demo-card-wide mdl-card mdl-shadow--2dp">
-  <div class="mdl-card__title">
-    <h2 class="mdl-card__title-text">Welcome</h2>
-  </div>
-  <div class="mdl-card__supporting-text">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Mauris sagittis pellentesque lacus eleifend lacinia...
-  </div>
-  <div class="mdl-card__actions mdl-card--border">
-    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-      Get Started
-    </a>
-  </div>
-  <div class="mdl-card__menu">
-    <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-      <i class="material-icons">share</i>
-    </button>
-  </div>
-</div>
+  <body>
+      <!-- Left aligned menu below button -->
+      <button id="demo-menu-lower-left"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">more_vert</i>
+      </button>
+      <ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect"
+        for="demo-menu-lower-left">
+        <href="/index.html"><li class="mdl-menu__item">Back to main page</li></href>
+        <li class="mdl-menu__item mdl-menu__item--full-bleed-divider">Another Action</li>
+        <li class="mdl-menu__item mdl-menu__item--full-bleed-divider">Another Action</li>
+        <li class="mdl-menu__item">Yet Another Action</li>
+      </ul>
+    <!-- Header -->
+      <h1>Hello, World!</h1>
+    <!-- Cool Button MDL -->
+      <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+        <i class="material-icons">add</i>
+      </button>
+    <!-- Floating Multiline Textfield -->
+      <form action="#">
+      <div class="mdl-textfield mdl-js-textfield">
+        <textarea class="mdl-textfield__input" type="text" rows="6" id="sample5"></textarea>
+        <label class="mdl-textfield__label" for="sample5">WRITE YO DAMN STUFF ALREADY</label>
+      </div>
+      <p>If you see this can you tell me how to make the font for the text thing bigger? Can't find it for the life of me</p>
+</form>
+  </body>
+</html>
